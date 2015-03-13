@@ -12,6 +12,7 @@ int main(void)
 {
 	void *ret;
 	int arg;
+	
 	pthread_t thread1, thread2;
 	
 	if(sem_init(&sem1, 0, 1)!=0)
